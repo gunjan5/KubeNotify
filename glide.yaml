@@ -1,0 +1,8 @@
+package: github.com/gunjan5/KubeNotify
+import:
+- package: github.com/deckarep/gosx-notifier
+  version: 61a88900fb062ed8c63828adf4d7b58463b61f78
+- package: github.com/ericchiang/k8s
+  version: bd3351b0ceb817083a3226c152e3a2c9bb2849c9
+- package: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
