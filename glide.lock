@@ -1,5 +1,5 @@
-hash: 2f3ca43b0999a58ee58cbe2a2702ad7c6d7d6b00949888ff310e5b4461de4239
-updated: 2017-04-02T22:34:38.291151051-07:00
+hash: e606c5bb405949bc888fb9b9f649b892b3bb550ead3bead8acbcafcf5d8528e8
+updated: 2017-06-01T13:15:00.752960057-07:00
 imports:
 - name: github.com/deckarep/gosx-notifier
   version: 61a88900fb062ed8c63828adf4d7b58463b61f78
@@ -39,6 +39,12 @@ imports:
   version: 8616e8ee5e20a1704615e6c8d7afcdac06087a67
   subpackages:
   - proto
+- name: github.com/projectcalico/libcalico-go
+  version: 866d81fe1e417514b7700156d36c6c04ab0b7d50
+  repo: https://github.com/gunjan5/libcalico-go.git
+  vcs: git
+  subpackages:
+  - lib
 - name: golang.org/x/net
   version: e90d6d0afc4c315a0d87a568ae68577cc15149a0
   subpackages:

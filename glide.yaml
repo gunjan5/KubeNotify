@@ -6,3 +6,9 @@ import:
   version: bd3351b0ceb817083a3226c152e3a2c9bb2849c9
 - package: gopkg.in/yaml.v2
   version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
+- package: github.com/projectcalico/libcalico-go
+  version: np-ga
+  repo: https://github.com/gunjan5/libcalico-go.git
+  vcs: git
+  subpackages:
+  - lib
